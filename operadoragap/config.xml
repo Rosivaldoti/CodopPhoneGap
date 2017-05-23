@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+          xmlns:gap="http://phonegap.com/ns/1.0"
+          id="br.com.adsddm.operadoragap"version="1.0.0">
+
+    <name>Consulta Operadora</name>
+    <description>
+       O projeto foi implementado com base em CORS (Cross-Origin Resource Sharing) e SOP (Same Origin Policy)
+	   com a requisição utilizando a técnica AJAX (Asynchronous JavaScript And XML). 
+    </description>
+    <author email="rosivaldosurf@hotmail.com">
+        Rosivaldo
+    </author>
+    <content src="index.html" />
+	
+	<!--Viola o SOP(política de mesma origem), que restringem requisições somente dentro do mesmo domínio usando a 
+	Técnica CORS que define como o navegador e o servidor podem se comunicar por meio de uma série de header HTTP.-->
+	<access origin="*"/><!--Para explicitar a liberação de uma origem http, liberando CORS para todos os domínios -->
+    <allow-navigation href="*"/><!--Por padrão só pode navegar páginas locais de file://. 
+								Para permitir que navegue para outras URLs externas-->
+	
+    <allow-intent href="market:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" /><!--Para abrir o discador numérico-->
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	
+	<splash src="res/screen/android/SplashScreen.png" density="port-hdpi"/>	
+	
+	<plugin name="cordova-plugin-whitelist" spec="~1.3.2" /><!--Plugin Cordova que controla o acesso a URLs-->
+	
+	<preference name="orientation" value="portrait" /><!-- Config. Tela cheia-->
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <preference name="android-minSdkVersion" value="16" />
+	
+	<preference name="SplashScreen" value="screen" /><!-- Config. Splashscreen-->
+	<preference name="SplashScreenWidth" value="546" />
+	<preference name="SplashScreenHeight" value="342" />
+	<preference name="SplashMaintainAspectRatio" value="false" />
+	<preference name="SplashScreenDelay" value="5000" />
+	<preference name="SplashShowOnlyFirstTime" value="false" />
+	
+	<gap:platform name="android">
+    <icon src="www/img/chips.png" />
+	</gap:platform>
+	
+</widget>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.adsddm.operadora" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Consulta Operadora</name>
+    <description>
+       O projeto foi implementado com base em CORS (Cross-Origin Resource Sharing) e SOP (Same Origin Policy)
+	   com a requisição utilizando a técnica AJAX (Asynchronous JavaScript And XML). 
+    </description>
+    <author email="harley.delima@gmail.com e rosivaldosurf@hotmail.com" href="http://cordova.io">
+        Harley e Rosivaldo
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="market:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <splash density="port-hdpi" src="res/screen/android/SplashScreen.png" />
+    <icon src="www/img/chips.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenWidth" value="546" />
+    <preference name="SplashScreenHeight" value="342" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+</widget>

@@ -1,0 +1,38 @@
+Trabalho para Nota N1 - 1oSem2017
+
+
+Nome do curso -  ADS - Análise e Desenvolvimento de Sistemas.
+
+Disciplina - DDM - Desenvolvimento para Dispositivos Móveis.
+
+Professor - Sandro Teixeira Carvalho.
+
+Matrícula - 201510036
+Nome - Harley de Lima Silva 
+
+Matrícula - 201511314 
+Nome - Rosivaldo Lelis da Silva
+
+Data de início - 02/03/2017
+Fim do desenvolvimento - 13/04/2017
+
+Descrição do projeto -
+
+   O aplicativo Operadora foi implementado para dispositivo móvel utilizando a plataforma de desenvolvimento móvel Apache Cordova e as linguagens Web HTML5, CSS3 e JavaScript obedecendo a arquitetura de desenvolvimento de software MVC (Model-View-Controller), que permitem ao usuário do aplicativo realizar uma requisição assíncrona informando o número do telefone para a url = http://consultas.portabilidadecelular.com+"/painel/consulta_numero.php? +"user=harleydelima&pass=92445536ctr&search_number="
++num+"&nome"); usando a técnica AJAX para obter a operadora ao qual o número pertence atráves de um alert.
+   O projeto foi implementado com base em CORS (Cross-Origin Resource Sharing) e SOP (Same Origin Policy) com a requisição utilizando a técnica AJAX (Asynchronous JavaScript And XML). 
+
+Descrição da participação de cada aluno no desenvolvimento do projeto
+
+Matrícula - 201510036
+Nome - Harley de Lima Silva 
+Escolha do Tema Consulta Operadora;
+Implementação do Aplicativo total;
+Criação das imagens botões, splashscreen utilizando CoralDraw;
+
+
+Matrícula - 201511314 
+Nome - Rosivaldo Lelis da Silva
+Implementação do Aplicativo total;
+
+
